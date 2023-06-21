@@ -8,9 +8,9 @@
 # Task 1
 Создайте `CMakeList.txt` для библиотеки banking
 
-We believe that we have already downloaded banking
+Мы считаем, что мы уже скачали банковское обслуживание
 
-Connect the gtest library:
+Подключите библиотеку gtest:
 ```
 $ mkdir third-party
 $ git submodule add https://github.com/google/googletest third-party/gtest
@@ -25,7 +25,7 @@ $ git push origin master
 ```
 
 
-Creat the CMakeLists.txt for banking:
+Создайте CMakeLists.txt для банковского дела:
 ```
 $ cd banking
 $ cat >> CMakeLists.txt << EOF
@@ -58,7 +58,7 @@ $ git commit -m "CMake - 1 - 1"
 $ git push origin master
 ```
 
-Creat other CMakeLists.txt for `tests`:
+Создавать другие CMakeLists.txt для `тестов`:
 ```
 $ cat >> CMakeLists.txt << EOF
 >EOF
@@ -99,7 +99,7 @@ $ git push origin master
 - Используйте mock-объекты
 - Покрытие кода должно составлять 100%
 
-Make the `tests.cpp`:
+Сделайте `tests.cpp `:
 ```
 $ cat >> tests.cpp << EOF
 >EOF
@@ -189,7 +189,7 @@ $ git push origin master
 # Task 3 
 Настройте сборочную процедуру на TravisCI
 
-Make `.yml` file:
+Создайте файл `.yml`:
 ```
 $ mkdir .github
 $ cd ~/lab-05/.github
@@ -245,7 +245,7 @@ $ git push origin master
 # Task 4
 Настройте Coveralls.io
 
-Changed CMakeLists.txt , which is responsible for the operation of the tests:
+Измененный CMakeLists.txt , который отвечает за выполнение тестов:
 ```
 $ nano CMakeLists.txt 
 ```
@@ -345,7 +345,7 @@ $ git commit -m "Action - 2"
 $ git push origin master
 ```
 
-Registering on the website https://coveralls.io
+Регистрация на веб-сайте https://coveralls.io
 
 ```
 $ nano README.md 
